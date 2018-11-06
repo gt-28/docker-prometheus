@@ -5,6 +5,8 @@ receivers:
     - name: 'slack'
       slack_configs:
           - send_resolved: true
-            username: '<username>'
-            channel: '#<channel-name>'
-            api_url: '<incomming-webhook-url>'
+            username: 'prometheus'
+            channel: '@douglas.meldrum'
+            api_url: 'https://hooks.slack.com/services/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'
+            icon_emoji: ':server_on_fire:'
+            text: 'Issue with cct-seating.clix.io!'
